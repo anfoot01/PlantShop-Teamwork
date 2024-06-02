@@ -1,0 +1,27 @@
+.shop{
+    padding: 90rem 0 140rem;
+    
+    @media screen and (max-width:$tablet){
+        padding: 160rem 10rem 90rem;
+    }
+    
+    @media screen and (max-width:$mobile){
+        padding: 66rem 0 86rem;
+    }
+    
+    &__container{
+        max-width: 1400rem;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20rem;
+    }
+
+    h2{
+        color: var(--dark-green-color);
+        text-align: center;
+        margin-bottom: 50rem;
+    }
+}

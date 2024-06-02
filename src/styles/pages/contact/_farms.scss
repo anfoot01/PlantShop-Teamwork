@@ -1,0 +1,118 @@
+$farmsBgImage: "/farms/farms-bg.jpg";
+
+.farms {
+    margin: 90rem 0;
+    padding: 0 108rem;
+    background-image: url("#{$farmsBgImage}");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 758rem;
+
+    @include tablet {
+        justify-content: center;
+        padding: 0 26rem;
+    }
+
+    @include mobile {
+        margin: 50rem 0;
+    }
+
+    &__text {
+        max-width: 408rem;
+        padding: 46rem 53rem;
+        background: var(--white);
+        border-radius: 30rem;
+
+        @include mobile {
+            padding: 30rem 35rem;
+        }
+    }
+
+    &__slogan {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 36rem;
+        color: #7eb693;
+        margin-bottom: 5rem;
+
+        @include mobile {
+            font-size: 30rem;
+        }
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 50rem;
+        color: #274c5b;
+        margin-bottom: 10rem;
+
+        @include mobile {
+            font-size: 36rem;
+        }
+    }
+
+    &__desc {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 18rem;
+        line-height: 165%;
+        color: #525c60;
+        margin-bottom: 19rem;
+    }
+
+    &-items {
+        display: grid;
+        gap: 22rem;
+    }
+
+    &-item {
+        max-width: 312rem;
+        display: flex;
+        gap: 6rem;
+        transition: 0.2s all ease-in-out;
+
+        &:hover {
+            .farms-item__title {
+                font-weight: 900;
+            }
+            .farms-item__desc{
+                font-weight: 600;
+            }
+            .farms-item__location{
+                img{
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        &__location {
+            img {
+                transition: 0.2s all ease-in-out;
+            }
+        }
+
+
+        &__title {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 18rem;
+            line-height: 165%;
+            color: #525c60;
+            transition: 0.2s all ease-in-out;
+        }
+
+        &__desc {
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 18rem;
+            line-height: 165%;
+            color: #525c60;
+            transition: 0.2s all ease-in-out;
+        }
+    }
+}

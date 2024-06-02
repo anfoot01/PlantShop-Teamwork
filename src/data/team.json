@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "image": {
+      "src": "../../assets/img/team/giovani-bacardo.png",
+      "alt": "person"
+    },
+    "item": {
+      "name": "Giovani Bacardo",
+      "role": "Farmer"
+    },
+    "socials": {
+      "facebook": "#",
+      "twitter": "#"
+    },
+    "variables":{
+        "instagram": "false"
+    }
+  },
+  {
+    "id": "2",
+    "image": {
+      "src": "../../assets/img/team/marianne-loreno.png",
+      "alt": "person"
+    },
+    "item": {
+      "name": "Marianne Loreno",
+      "role": "Designer"
+    },
+    "socials": {
+      "instagram": "#",
+      "facebook": "#",
+      "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
+    }
+  },
+  {
+    "id": "3",
+    "image": {
+      "src": "../../assets/img/team/riga-pelore.png",
+      "alt": "person"
+    },
+    "item": {
+      "name": "Riga Pelore",
+      "role": "Farmer"
+    },
+    "socials": {
+      "instagram": "#",
+      "facebook": "#",
+      "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
+    }
+  },
+  {
+    "id": "4",
+    "image": {
+      "src": "../../assets/img/team/keira-knightley.png",
+      "alt": "person"
+    },
+    "item": {
+      "name": "Keira Knightley",
+      "role": "Farmer"
+    },
+    "socials": {
+      "facebook": "#",
+      "twitter": "#"
+    },
+    "variables":{
+        "instagram": "false"
+    }
+  },
+  {
+    "id": "5",
+    "image": {
+      "src": "../../assets/img/team/scott-lawrence.png",
+      "alt": "person"
+    },
+    "item": {
+      "name": "Scott Lawrence",
+      "role": "Designer"
+    },
+    "socials": {
+      "instagram": "#",
+      "facebook": "#",
+      "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
+    }
+  },
+  {
+    "id": "6",
+    "image": {
+      "src": "/../assets/img/team/karen-allen.png",
+      "alt": "person"
+    },
+    "item": {
+      "name": "Karen Allen",
+      "role": "Farmer"
+    },
+    "socials": {
+      "instagram": "#",
+      "facebook": "#",
+      "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
+    }
+  }
+]

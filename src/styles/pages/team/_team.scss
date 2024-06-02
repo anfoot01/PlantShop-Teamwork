@@ -1,0 +1,39 @@
+.team {
+    padding: 150rem 0 120rem 0;
+
+    &__container {
+        max-width: 1400rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20rem;
+        margin-top: 42rem;
+    }
+
+    &__mark {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 36rem;
+        color: var(--green-color);
+        text-align: center;
+    }
+
+    &__title {
+        color: var(--dark-green-color);
+        text-align: center;
+        margin-bottom: 16rem;
+    }
+
+    &__desc {
+        color: var(--black-color);
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 18rem;
+        line-height: 165%;
+        text-align: center;
+        max-width: 822rem;
+        margin: auto;
+    }
+
+}

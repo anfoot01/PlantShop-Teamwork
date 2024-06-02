@@ -1,0 +1,25 @@
+.discount {
+  display: flex;
+  max-width: 1400px;
+  margin-inline: auto;
+  gap: 35px;
+  padding-inline: 20px;
+  margin-top: 154rem;
+  @media screen and (max-width: 1400px) {
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+  }
+  @include desktop-small {
+    gap: 16px;
+  }
+  @include tablet-small {
+    flex-direction: column;
+  }
+  @include mobile {
+    padding-inline: 10px;
+  }
+  img {
+    max-width: 100%;
+  }
+}

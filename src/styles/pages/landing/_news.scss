@@ -1,0 +1,211 @@
+.news-lending {
+    padding: 177rem 0 185rem 0;
+    max-width: 1400rem;
+    margin-inline: auto;
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 48px;
+
+        @include mobile {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    &__mark {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 36rem;
+        color: var(--green-color);
+        margin-bottom: 8rem;
+
+        @include mobile {
+            text-align: center;
+        }
+    }
+
+    &__title {
+        max-width: 902rem;
+        color: var(--dark-green-color);
+
+    }
+
+    &__btn {
+        padding: 28rem 39rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 10rem;
+        border-radius: 16rem;
+        border: 1rem solid var(--dark-green-color);
+        text-decoration: none;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 20rem;
+        color: var(--dark-green-color);
+        transition: .2s all ease-in-out;
+    }
+
+    .btn-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 19rem;
+        height: 19rem;
+        background: var(--dark-green-color-second);
+        border-radius: 100%;
+        font-size: 9rem;
+        transition: .2s all ease-in-out;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(677rem, 1fr));
+        justify-content: center;
+        margin: auto;
+        gap: 10rem;
+    }
+
+    &__item {
+        position: relative;
+        width: 677rem;
+        height: 524rem;
+        border-radius: 30rem;
+        margin: auto;
+        margin-bottom: 185rem;
+        @include tablet{
+            width: 577rem;
+            height: 444rem;
+        }
+        @include mobile {
+            width: 357rem;
+            height: 324rem;
+        }
+      
+
+        &__img {
+            position: absolute;
+            top: 43rem;
+            left: 32rem;
+
+            @include mobile {
+                top: 33rem;
+                left: 27rem;
+            }
+        }
+
+        &__date {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 82rem;
+            height: 82rem;
+            border-radius: 50%;
+            background: var(--white);
+
+            @include mobile {
+                width: 62rem;
+                height: 62rem;
+            }
+        }
+
+        &__date p {
+            color: var(--dark-green-color);
+            font-family: var(--font-family);
+            font-weight: 800;
+            font-size: 25rem;
+            text-align: center;
+            line-height: 20rem;
+        }
+
+        &__date span {
+            font-size: 20rem;
+        }
+
+        &__info {
+            max-width: 493rem;
+            max-height: 330rem;
+            padding: 46rem 57rem 60rem 57rem;
+            top: 268rem;
+            left: 32rem;
+            position: absolute;
+            background: var(--white);
+            box-shadow: 0 20rem 35rem 0 rgba(167, 167, 167, 0.25);
+            border-radius: 31rem 34rem 30rem 30rem;
+            @include tablet{
+                max-width: 453rem;
+                left: 5rem;
+            }
+            @include mobile {
+                max-width: 233rem;
+                max-height: 180rem;
+                top: 188rem;
+                padding: 26rem 37rem 40rem 37rem;
+                left: 25rem;
+            }
+
+            &__icon {
+                display: flex;
+                gap: 8rem;
+                align-items: center;
+                margin-bottom: 15rem;
+                @include mobile {
+                    margin-bottom: 7rem;
+                }
+            }
+
+            &__title {
+                color: var(--dark-green-color);
+                font-family: var(--font-family);
+                font-weight: 800;
+                font-size: 25rem;
+                margin-bottom: 2rem;
+                @include mobile{
+                    font-size: 20rem;
+                }
+            }
+
+            &__desc {
+                color: var(--black-color);
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 18rem;
+                line-height: 165%;
+                margin-bottom: 6;
+                @include mobile{
+                    font-size: 14rem;
+                }
+            }
+
+            &__btn {
+                text-decoration: none;
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 20rem;
+                color: var(--dark-green-color);
+                padding: 28rem 39rem;
+                background: var(--yelow-color);
+                border-radius: 16rem;
+                cursor: pointer;
+                display: inline-flex;
+                align-items: center;
+                gap: 10rem;
+                transition: .2s all ease-in-out;
+                @include mobile{
+                    padding: 8rem 14rem;
+                }
+            }
+        }
+    }
+}
+
+.salad {
+    background: url(/public/assets/img/news/Salad.png);
+}
+
+.tomato {
+    background: url(/public/assets/img/news/Tomato.png);
+}

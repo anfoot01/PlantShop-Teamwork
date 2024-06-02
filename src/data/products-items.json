@@ -1,0 +1,370 @@
+[
+    {
+        "id": "1",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-1.png",
+            "alt": "item-1"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item1.png"
+        },  
+        "item": {
+            "type": "Vegetable",
+            "name": "Calabrese Broccoli",
+            "rating": "3"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$13.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "2",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-2.png",
+            "alt": "item-2"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item2.png"
+        },  
+        "item": {
+            "type": "Fresh",
+            "name": "Fresh Banana Fruits",
+            "rating": "4"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$14.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "3",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-3.png",
+            "alt": "item-3"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item3.png"
+        },  
+        "item": {
+            "type": "Millets",
+            "name": "Health Pistachios",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "4",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-4.png",
+            "alt": "item-4"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item4.png"
+        },  
+        "item": {
+            "type": "Vegetable",
+            "name": "Vegan Red Tomato",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "5",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-5.png",
+            "alt": "item-5"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item5.png"
+        },  
+        "item": {
+            "type": "Health",
+            "name": "Mung Bean",
+            "rating": "4"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "6",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-6.png",
+            "alt": "item-6"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item6.png"
+        },  
+        "item": {
+            "type": "Nuts",
+            "name": "Brown Hazelnut",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "7",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-7.png",
+            "alt": "item-7"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item7.png"
+        },   
+        "item": {
+            "type": "Fresh",
+            "name": "Eggs",
+            "rating": "3"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "8",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-8.png",
+            "alt": "item-8"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item8.png"
+        },   
+        "item": {
+            "type": "Fresh",
+            "name": "Zelco Suji Elaichi Rusk",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "9",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-9.png",
+            "alt": "item-9"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item9.png"
+        },  
+        "item": {
+            "type": "Health",
+            "name": "Franchi Zucchini",
+            "rating": "4"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "10",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-10.png",
+            "alt": "item-10"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item10.png"
+        },  
+        "item": {
+            "type": "Nuts",
+            "name": "Cashew",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "11",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-11.png",
+            "alt": "item-11"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item11.png"
+        },   
+        "item": {
+            "type": "Fresh",
+            "name": "Fresh Corn",
+            "rating": "4"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "12",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-12.png",
+            "alt": "item-12"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item12.png"
+        },  
+        "item": {
+            "type": "Fresh",
+            "name": "Organic Almonds",
+            "rating": "4"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "13",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-13.png",
+            "alt": "item-13"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item13.png"
+        },  
+        "item": {
+            "type": "Vegetable",
+            "name": "Green Broccoli",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "14",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-14.png",
+            "alt": "item-14"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item14.png"
+        },  
+        "item": {
+            "type": "Vegetable",
+            "name": "Zucchini",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "15",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-15.png",
+            "alt": "item-15"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item15.png"
+        },  
+        "item": {
+            "type": "Vegetable",
+            "name": "Onion",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    },
+    {
+        "id": "16",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-16.png",
+            "alt": "item-16"
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item16.png"
+        },  
+        "item": {
+            "type": "Vegetable",
+            "name": "Cabbage",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
+        },
+        "info": {
+            "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+            "info": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw."
+        }
+    }
+]

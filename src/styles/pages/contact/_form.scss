@@ -1,0 +1,119 @@
+.contact__form {
+  padding: 80rem 40rem 120rem 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  max-width: 1184rem;
+  width: 100%;
+
+  &__group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 46rem;
+    grid-row-gap: 46rem;
+    margin-bottom: 50rem;
+    align-items: center;
+
+    @include tablet-small {
+      grid-template-columns: 1fr;
+      grid-gap: 30rem;
+      margin-bottom: 30rem;
+    }
+  }
+
+  &__send {
+    display: flex;
+    align-items: baseline;
+    gap: 50rem;
+
+    @include tablet-small {
+      flex-direction: column;
+      gap: 15rem;
+    }
+  }
+
+  &__button {
+    margin-top: 60rem;
+    background-color: var(--dark-green-color);
+    border-radius: 16rem;
+    padding: 20rem 40rem;
+    border: none;
+    outline: none;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20rem;
+    transition: 0.2s all ease-in-out;
+
+    @include tablet-small {
+      margin-top: 30rem;
+    }
+  }
+
+  &__button:hover {
+    transform: scale(1.1);
+    background-color: var(--dark-green-color-second);
+  }
+}
+
+.field {
+  display: block;
+  padding-right: 40rem;
+
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18rem;
+    color: var(--dark-green-color);
+    margin-bottom: 26rem;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  &__input {
+    border: 1rem solid var(--green-color);
+    border-radius: 16rem;
+    width: 100%;
+    max-width: 569rem;
+    padding: 20rem;
+    outline: none;
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18rem;
+    color: var(--dark-green-color);
+
+    @include tablet-small {
+      max-width: 100%;
+    }
+  }
+
+  &__input::placeholder {
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18rem;
+    color: var(--placeholder);
+  }
+
+  &__textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 247rem;
+    resize: none;
+  }
+}
+
+.error {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18rem;
+  color: var(--error);
+}

@@ -1,0 +1,258 @@
+.hero {
+    width: 100%;
+
+    &__container {
+        background: var(--gray-color-second);
+        position: relative;
+        display: flex;
+        align-items: stretch;
+        justify-content: stretch;
+
+        @include desktop-small {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-decor-figs, 
+        .hero-decor-leaves-5,
+        .hero-decor-strawberry,
+        .hero-decor-leaves-4, 
+        .hero-decor-leaves-3, 
+        .hero-decor-leaves-2,
+        .hero-decor-leaves-1 {
+            position: absolute;
+            z-index: 1;
+        }
+
+        .hero-decor-figs {
+            top: 20rem;
+            left: 5rem;
+            @include tablet {
+                top: 0;
+                left: 0;
+                img {
+                    width: 200rem;
+                    height: auto;
+                }
+            }
+            @include mobile {
+                img {
+                    width: 120rem;
+                }
+            }
+        }
+
+        .hero-decor-strawberry {
+            top: 60rem;
+            left: 780rem;
+            @include desktop-small {
+                top: 32%;
+                left: 65%;
+            }
+            @include tablet {
+                top: 35%;
+                img {
+                    width: 140rem;
+                    height: auto;
+                }
+            }
+            @include mobile {
+                top: 26%;
+                img {
+                    width: 80rem;
+                }
+            }
+        }
+        .hero-decor-leaves-1 {
+            left: 0;
+            bottom: 1rem;
+            @include tablet {
+                bottom: 0;
+                img {
+                    width: 200rem;
+                    height: auto;
+                }
+            }
+            @include mobile {
+                img {
+                    width: 120rem;
+                }
+            }
+        }
+        .hero-decor-leaves-2 {
+            right: 5rem;
+            bottom: 2rem;
+            @include tablet {
+                bottom: 0;
+                right: 0;
+                img {
+                    width: 170rem;
+                    height: auto;
+                }
+            }
+            @include mobile {
+                img {
+                    width: 120rem;
+                }
+            }
+        }
+        .hero-decor-leaves-3 {
+            top: 0;
+            right: 0;
+            @include tablet {
+                img {
+                    width: 160rem;
+                    height: auto;
+                }
+            }
+            @include mobile {
+                img {
+                    width: 100rem;
+                }
+            }
+        }
+        .hero-decor-leaves-4 {
+            top: 16rem;
+            right: 130rem;
+            @include tablet {
+                top: 4%;
+                right: 14%;
+                img {
+                    width: 120rem;
+                    height: auto;
+                }
+            }
+            @include mobile {
+                top: 0;
+                img {
+                    width: 80rem;
+                }
+            }
+        }
+        .hero-decor-leaves-5 {
+            top: 204rem;
+            left: 142rem;
+            @include tablet {
+                top: 11%;
+                left: 13%;
+                img {
+                    width: 80rem;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    &__info {
+        padding: 200rem 0 200rem 200rem;
+        max-width: 530rem;
+        z-index: 2;
+        @include desktop-small {
+            padding: 120rem 70rem 80rem;
+            max-width: 700rem;  
+            text-align: center;          
+        }
+        @include tablet-small {
+            padding: 80rem 50rem 50rem 50rem;
+        }
+        @include mobile {
+            padding: 50rem 30rem 30rem 30rem;
+        }
+    }
+
+    &__slogan {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 36rem;
+        color: var(--green-color-second);
+        margin-bottom: 8rem;
+        @include tablet-small {
+            font-size: 32rem;
+        }
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 70rem;
+        color: var(--dark-green-color);
+        margin-bottom: 23rem;
+        @include desktop-small {
+            margin-bottom: 35rem;
+        }
+        @include tablet-small {
+            font-size: 56rem;
+        }
+        @include mobile {
+            font-size: 40rem;
+            margin-bottom: 25rem;
+        }
+    }
+
+    &__button {
+        padding: 28rem 39rem;
+        background: var(--yelow-color);
+        border-radius: 16rem;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 10rem;
+        transition: .2s all ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+            .btn-arrow {
+                transform: scale(1.05);
+                background: var(--green-color-second);
+            }
+            .btn-text {
+                color: var(--green-color-second);
+            }
+            
+        }
+
+        @include tablet-small {
+            padding: 24rem 35rem;
+        }
+        @include mobile {
+            padding: 20rem 30rem;
+        }
+
+        .btn-text {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 20rem;
+            color: var(--dark-green-color);
+            transition: .2s all ease-in-out;
+        }
+        .btn-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 19rem;
+            height: 19rem;
+            background: var(--dark-green-color-second);
+            border-radius: 100%;
+            font-size: 9rem;
+            transition: .2s all ease-in-out;
+        }
+    }
+
+    &__image {
+        z-index: 2;
+        overflow: hidden;
+        width: 100%;
+        @include desktop-small {
+            display: flex;
+            justify-content: center;
+
+        }
+        img {
+            height: 100%;
+            object-fit: cover;
+            @include desktop-small {
+                width: 100%;
+            }
+        }
+    }
+}

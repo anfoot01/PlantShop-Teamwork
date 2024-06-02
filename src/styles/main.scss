@@ -1,0 +1,19 @@
+@import 'utils/reset';
+@import 'utils/base';
+@import 'utils/vars';
+@import 'utils/mixins';
+
+@import 'shared/header';
+@import 'shared/footer';
+@import 'shared/newsletter';
+@import 'shared/product-card';
+@import 'shared/team-card';
+@import 'shared/banner';
+
+@import 'pages/pages.scss';
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+

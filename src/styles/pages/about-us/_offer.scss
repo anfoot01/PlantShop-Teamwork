@@ -1,0 +1,56 @@
+.offerAbout {
+  background: var(--dark-green-color);
+  padding: 188rem 10rem;
+
+  @include tablet-small {
+    padding: 150rem 20rem;
+  }
+}
+
+.offerAboutInfo {
+  text-align: center;
+  &__title {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36rem;
+    color: var(--green-color);
+    padding-bottom: 8rem;
+  }
+
+  &__description {
+    color: var(--white);
+    padding-bottom: 33rem;
+
+    @include mobile {
+      font-size: 35rem;
+    }
+  }
+}
+
+.offerAboutCards {
+  margin-inline: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 21rem;
+
+  @include tablet {
+    flex-wrap: wrap;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.offerAboutCard {
+  text-align: center;
+  border-radius: 30rem;
+
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 25rem;
+    color: var(--white);
+  }
+}

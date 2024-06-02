@@ -1,0 +1,108 @@
+.eco-friendly-landing {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    @include tablet {
+        flex-direction: column;
+
+      }
+  
+    &__photo {
+        width: 100%;
+        max-width: 952rem;
+        max-height: 931rem;
+        @include desktop-for-eco_friendly{
+            max-width: 850rem;
+        }
+    }
+  
+    &__container {
+        max-width: 789rem;
+        display: flex;
+        flex-direction: column; 
+        margin-left: -81rem;
+        border-radius: 30rem;
+        background-color: var(--white);
+        padding: 78rem 89rem 42rem 89rem;
+        @include desktop-for-eco_friendly{
+            margin-left: -120rem;
+        }
+        @include desktop-small{
+            margin-left: -290rem;
+        }
+
+        @include tablet {
+            margin: -81rem 30rem 0 30rem;
+            padding: 58rem 59rem 12rem 59rem;
+        }
+        @include mobile{
+            margin: -130rem 15rem 0 15rem;
+            padding: 38rem 30rem 0 30rem;
+          }
+    }
+  
+    &__header {
+      font-family: var(--third-family);
+      font-weight: 400;
+      font-size: 36rem;
+      color: var(--green-color);
+      margin-bottom: 8rem;
+      @include desktop-for-eco_friendly{
+        font-size: 32rem;
+      }
+      @include mobile{
+        font-size: 26rem;
+      }
+    }
+  
+    &__title {
+      max-width: 437rem;
+      color: var(--dark-green-color);
+      margin-bottom: 35rem;
+      @include desktop-for-eco_friendly{
+        font-size: 46rem;
+      }
+      @include desktop-small{
+        font-size: 36rem;
+      }
+      @include mobile{
+        font-size: 26rem;
+      }
+    }
+  
+    &__point {
+      margin-bottom: 35rem;
+    }
+  
+    &__link {
+      text-decoration: none;
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 25rem;
+      color: var(--dark-green-color);
+      margin-bottom: 7rem;
+      transition: .2s all ease-in-out;
+  
+      &:hover {
+        color: var(--green-color);
+      }
+      @include desktop-for-eco_friendly{
+        font-size: 21rem;
+      }
+      @include mobile{
+        font-size: 17rem;
+      }
+    }
+  
+    &__desc {
+      max-width: 635rem;
+      color: var(--black-color);
+      @include desktop-for-eco_friendly{
+        font-size: 14rem;
+    }
+    @include mobile{
+        font-size: 12rem;
+      }
+    }
+  }
+  

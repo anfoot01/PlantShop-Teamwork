@@ -1,0 +1,101 @@
+$newsletterBgImage: "/newsletter/background.jpg";
+
+.newsletter {
+  padding: 105rem 71rem;
+  max-width: 1400rem;
+  margin-inline: auto;
+  border-radius: 30rem;
+  background-image: url("#{$newsletterBgImage}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20rem;
+  @include tablet {
+    padding: 52rem 32rem;
+    border-radius: 15rem;
+  }
+  @include mobile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 50rem;
+    color: var(--white);
+    max-width: 357rem;
+    @include tablet {
+      font-size: 30rem;
+    }
+    @include mobile {
+      font-size: 25rem;
+    }
+  }
+  &-form {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    max-width: 575rem;
+    width: 100%;
+    flex-shrink: 0;
+    @include tablet {
+      max-width: 350rem;
+    }
+
+    &__input {
+      border: 0;
+      outline: 0;
+      background: var(--white);
+      border-radius: 16rem;
+      padding: 28rem 23rem 31rem 23rem;
+      width: 100%;
+      font-family: var(--font-family);
+      font-style: italic;
+      font-weight: 400;
+      font-size: 18rem;
+      color: var(--black-color);
+      &::placeholder {
+        color: var(--c-placeholder);
+      }
+      @include tablet {
+        padding: 16rem 11rem;
+      }
+      @include mobile {
+        font-size: 16rem;
+      }
+    }
+    &__btn {
+      display: inline-flex;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      border-radius: 16rem;
+      padding: 28rem 47rem 29rem 47rem;
+      background: var(--bg-dark-green);
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 20rem;
+      color: var(--white);
+      @include tablet {
+        padding: 16rem 16rem;
+      }
+    }
+
+    &__icon {
+      width: 15rem;
+      height: 15rem;
+      display: none;
+      @include tablet {
+        display: inline;
+      }
+    }
+
+    &__text {
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+}

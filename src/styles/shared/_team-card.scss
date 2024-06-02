@@ -1,0 +1,55 @@
+@import '../utils/mixins';
+@import '../utils/vars';
+
+.teammate {
+  
+    &__img {
+        cursor: pointer;
+        width: 449px;
+        height: 485px;
+        border-radius: 15rem 15rem 0 0;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: 100%;
+        @include mobile {
+            max-width: 349px;
+            max-height: 375px;
+        }
+    }
+
+    &__info {
+        background: var(--team-card-bg);
+        border-radius: 0 0 15rem 15rem;
+        padding: 35rem 28rem 34rem 28rem;
+
+    }
+
+    &__name {
+        color: var(--dark-green-color);
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 25rem;
+        margin-bottom: 2rem;
+    }
+
+    &__role {
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 22rem;
+        color: var(--green-color);
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__socials {
+        display: flex;
+        gap: 17rem;
+
+        &__link {
+            list-style: none;
+        }
+    }
+}

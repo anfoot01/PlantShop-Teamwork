@@ -1,0 +1,87 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap";
+
+// breakpoints
+$desktop-for-eco_friendly: 1370px;
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+$mobile-for-shop_items: 379px;
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Open Sans", sans-serif;
+    --third-family: "Yellowtail", sans-serif;
+    --orange-color:#ffa858;
+    --yelow-color: #efd372;
+    --green-color: #7eb693;
+    --green-color-second: #68a47f;
+    --gray-color: #d4d4d4;
+    --gray-color-second: #f1eff0;
+    --gray-color-third: #f9f8f8;
+    --white: #fff;
+    --light-green-color: #eff6f1;
+    --dark-green-color: #274c5b;
+    --dark-green-color-second: #335b6b;
+    --black-color: #525c60;
+    --light-gray-color: #dedddd;
+    --gray-price-color: #b8b8b8;
+    --arrow-bg-color: #335b6b;
+    --bg-dark-green: #274c5b;
+    --border: 1px solid #d4d4d4;
+    --light-white: #f1f1f1;
+    --separator: #e0e0e0;
+    //--gray-background-color: #f9f8f8;
+    //--white-ellipse-color: #ececec;
+    --placeholder: #ababab;
+    --error: #ff0000;
+    --hover-green-color: #eff6f1;
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 35px;
+}
+
+h5 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+h6 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 25px;
+}
+
+p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165%;
+}
+
+.background{
+    width: 971rem;
+    height: 700rem;
+}

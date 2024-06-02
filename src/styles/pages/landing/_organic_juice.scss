@@ -1,0 +1,43 @@
+.organic {
+    padding: 187rem 0;
+    background-color: var(--light-green-color);
+    @include tablet {
+        margin: 96rem 0;
+    }
+
+    &-items {
+        display: flex;
+        gap: 42rem;
+        justify-content: space-between;
+        @include desktop-small{
+            flex-direction: column;
+        }
+    }
+
+    &-item {
+        background-size: cover;
+        background-position: center;
+        height: 583rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mobile{
+            height: 400px;
+        }
+        &__title {
+            padding: 34rem 83rem;
+            background: var( --white);
+            border-radius: 20rem;
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 25rem;
+            color: var(--dark-green-color);
+
+            @include mobile {
+                padding: 24rem 58rem;
+                font-size: 20rem;
+            }
+        }
+    }
+}

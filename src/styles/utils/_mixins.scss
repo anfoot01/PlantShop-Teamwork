@@ -1,0 +1,29 @@
+// MEDIA QUERIES
+@mixin desktop-for-eco_friendly {
+    @media (max-width: $desktop-for-eco_friendly) {
+        @content;
+    }
+}
+@mixin desktop-small {
+    @media (max-width: $desktop-small) {
+        @content;
+    }
+}
+
+@mixin tablet-small {
+    @media (max-width: $tablet-small) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}

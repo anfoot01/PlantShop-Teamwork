@@ -1,0 +1,181 @@
+.why-us{
+    flex-direction: column;
+    justify-content: center;
+    padding: 190rem 30rem;
+    background-color: #f9f8f8;
+    @include tablet{
+        padding: 130rem 30rem;
+    }
+    @include tablet-small{
+        padding: 100rem 30rem;
+    }
+    &__main{
+        display: flex;
+        justify-content: center;
+        gap: 51rem;
+        align-items: center;
+        @include desktop-small{
+            flex-direction: column;
+        }
+        &-contact{
+            &-header{
+                font-family: var(--third-family);
+                font-weight: 400;
+                font-size: 36rem;
+                color: var(--green-color);
+                margin-bottom: 6rem;
+                @include desktop-small{
+                    text-align: center;
+                }
+                @include tablet-small{
+                    font-size: 30rem;
+                }
+                @include mobile{
+                    font-size: 27rem;
+                }
+            }
+            &-title{
+                max-width: 524rem;
+                color: var(--dark-green-color);
+                margin-bottom: 25rem;
+                @include desktop-small{
+                    text-align: center;
+                    max-width: 1200rem;
+                }
+                @include tablet-small{
+                    font-size: 44rem;
+                }
+                @include mobile{
+                    font-size: 32rem;
+                }
+
+            }
+            &-main-desc{
+                max-width: 671rem;
+                color: var(--black-color);
+                margin-bottom: 36rem;
+                @include desktop-small{
+                    text-align: center;
+                    max-width: 1200rem;
+                }
+                @include tablet-small{
+                    font-size: 14rem;
+                }
+            }
+            &-description{
+                margin-left: 60rem;
+                max-width: 444rem;
+                color: var(--black-color);
+                @include desktop-small{
+                    text-align: center;
+                    max-width: 1200rem;
+                    margin-left: 0;
+                }
+                @include tablet-small{
+                    font-size: 14rem;
+                }
+            }
+    
+            &-point{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 7rem;
+                border-radius: 49rem;
+                padding: 29rem 91rem 29rem 27rem;
+                max-width: 339rem;
+                background-color: #ececec;
+                margin-bottom: 12rem;
+                @include desktop-small{
+                    margin: auto;
+                }
+                @include tablet-small{
+                    max-width: 220rem;
+                    padding: 23rem 85rem 23rem 21rem;
+                }
+                &-icon{
+                    color: var(--green-color);
+                }
+                &-title{
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 20rem;
+                    color: var(--dark-green-color);
+                    @include tablet-small{
+                        font-size: 14rem;
+                    }
+                }
+            }
+        }
+        &-image{
+            border-radius: 30rem;
+            width: 100%;
+            max-width: 678rem;
+            max-height: 579rem;
+        }
+    }
+
+    &__container{
+        display: flex;
+        justify-content: center;
+        margin-top: 91rem;
+        @include desktop-small{
+            margin-top: 50rem;
+        }
+        &-elements{
+            display: flex;
+            justify-content: space-between;
+            gap: 30rem;
+            @include desktop-small{
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 20rem;
+            }
+            @include mobile{
+                grid-template-columns: auto;
+            }
+            &-info{
+                border-radius: 30rem;
+                max-width: 257rem;
+                padding: 50rem 38rem 19rem 35rem;
+                background-color: var(--white);
+                &-icon{
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 15rem; 
+                    &-photo{
+                        border-radius: 18rem;
+                        background-color: #f9f8f8;
+                        padding: 24rem;
+                        display: flex;
+                        justify-content: center;
+                    }                
+                }
+                &-title{
+                    text-align: center;
+                    color: var(--bg-dark-green);
+                    margin-bottom: 12rem;
+                }
+                &-desc{
+                    &-text{
+                        text-align: center;
+                        color: var(--black-color); 
+                        max-width: 184rem;
+                        margin-bottom: 30rem;
+                    }
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+.with-margin-bottom{
+    margin-bottom: 24rem;
+}
+.why-us__contact-point-middle-icon{
+    color: #ececec;
+}
+.secured{
+    padding: 50rem 25rem 19rem 26rem;
+}

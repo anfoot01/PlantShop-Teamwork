@@ -1,0 +1,142 @@
+.about {
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    background: var(--white);
+    padding: 189rem 20rem;
+
+    @include desktop-small {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 90rem 30rem;
+
+    }
+  }
+
+  &__img {
+    max-width: 911rem;
+   
+    img {
+      width: 100%;
+    }
+
+    @include tablet {
+      padding: 20rem;
+      max-width: auto;
+    }
+  }
+
+  &__box {
+    max-width: 702rem;
+    @include desktop-small {
+      padding: 20rem;
+      margin-inline: auto;
+    }
+  }
+
+  &__title {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36rem;
+    color: var(--green-color);
+    margin-bottom: 8rem;
+
+    @include desktop-small {
+      font-size: 32rem;
+    }
+
+    @include mobile {
+      font-size: 26rem;
+    }
+  }
+
+  &__desc {
+    font-weight: 800;
+    font-size: 50rem;
+    color: var(--dark-green-color);
+    margin-bottom: 14rem;
+
+    @include desktop-small {
+      font-size: 46rem;
+    }
+
+    @include desktop-small {
+      font-size: 36rem;
+    }
+
+    @include mobile {
+      font-size: 26rem;
+    }
+
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30rem;
+    margin-top: 46rem;
+
+    @include mobile {
+      flex-direction: column;
+
+    }
+  }
+
+  &__icon {
+    border-radius: 20rem;
+    padding: 27rem;
+    background: var(--white);
+    margin-right: 19rem;
+
+    @include mobile {
+      padding: 15rem;
+      margin-bottom: 20rem;
+    }
+  }
+
+  &__smalltitle {
+    font-weight: 800;
+    font-size: 25rem;
+    color: var(--dark-green-color);
+
+    @include desktop-small {
+      font-size: 21rem;
+    }
+
+    @include mobile {
+      font-size: 17rem;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    gap: 10rem;
+    border-radius: 16rem;
+    padding: 28rem 39rem;
+    background: var(--dark-green-color);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 20rem;
+    border: 0;
+    margin-top: 46rem;
+  }
+
+  .about__paragraph {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18rem;
+    line-height: 165%;
+    color: var(--black-color);
+
+    @include desktop-small {
+      font-size: 14rem;
+    }
+
+    @include mobile {
+      font-size: 12rem;
+    }
+  }
+}
